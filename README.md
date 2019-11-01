@@ -40,6 +40,11 @@ Choose the repo folder and log into MarkLogic Server.
 1. Next, run the load\_rocks\_docs flow.
 1. On the Browse Data tab, select the load\_keywords collection to view the /keywords.json reference file.
 1. Select the load\_docx collection to view the orginial Word documents
-1. Select the docx_extract collection to view the 
+1. Select the docx_extract collection to view the parsed documents as JSON including the list of keywords and categories found in each document as well as the parsed file path.
+
+## Other
+- Keywords and categories are defined in the file input/reference/keyewords.json
+- Documents are located in the input/rocks directory
+- See the /input/rocks/Flint.docx.json document for a good example.
 
 ***
