@@ -35,10 +35,11 @@ Choose the repo folder and log into MarkLogic Server.
 
 ## Running
 
-1. Go to the Flows tab and run the load_keywords flow by clicking on the 'Run' button.
-2. Then, run the load\_rocks\_docs flow.
-3. On the Browse Data tab, select the load\_keywords collection to view the /keywords.json reference file.
-4. Select the load\_docx collection to view the orginial Word documents
-5. Select the docx_extract collection to view the 
+1. Go to the Flows tab and click on the 'Redeploy' button to deploy the deployment flows to the server. 
+1. Then, run the load_keywords flow by clicking on the 'Run' button.
+1. Next, run the load\_rocks\_docs flow.
+1. On the Browse Data tab, select the load\_keywords collection to view the /keywords.json reference file.
+1. Select the load\_docx collection to view the orginial Word documents
+1. Select the docx_extract collection to view the 
 
 ***
