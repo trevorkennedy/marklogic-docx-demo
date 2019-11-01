@@ -18,7 +18,9 @@ function main(content, options) {
   for (var i = 0; i < reference.length; i++) {
     if (fn.contains(txt, reference[i].key)) {
       matches.push(reference[i].key);
-      cat_matches.push(reference[i].value);
+      if (!cat_matches.includes(reference[i].value.toString())) {
+        cat_matches.push(reference[i].value.toString());
+      }
     }
   }
   
