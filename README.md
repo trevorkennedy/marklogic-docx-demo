@@ -43,8 +43,9 @@ Choose the repo folder and log into MarkLogic Server.
 1. Select the docx_extract collection to view the parsed documents as JSON including the list of keywords and categories found in each document as well as the parsed file path.
 
 ## Other
-- Keywords and categories are defined in the file input/reference/keyewords.json
-- Documents are located in the input/rocks directory
-- See the /input/rocks/Flint.docx.json document for a good example.
+- Keywords and categories are defined in the file `input/reference/keyewords.json`
+- Documents are located in the `input/rocks` directory
+- Custom code for the extraction step is located in `src/main/ml-modules/root/custom-modules/custom/docx_extract/main.sjs`
+- See the `/input/rocks/Flint.docx.json` document for a good example.
 
 ***
