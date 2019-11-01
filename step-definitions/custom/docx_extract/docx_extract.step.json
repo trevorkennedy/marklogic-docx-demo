@@ -1,0 +1,22 @@
+{
+  "lang" : "zxx",
+  "name" : "docx_extract",
+  "description" : "",
+  "type" : "CUSTOM",
+  "version" : 5,
+  "options" : {
+    "additionalCollections" : [ ],
+    "sourceQuery" : "cts.collectionQuery([\"load_docx\"])",
+    "targetEntity" : "",
+    "collections" : [ "docx_extract" ],
+    "sourceDatabase" : "data-hub-STAGING",
+    "sourceCollection" : "load_docx",
+    "outputFormat" : "json",
+    "targetDatabase" : "data-hub-STAGING"
+  },
+  "customHook" : { },
+  "modulePath" : "/custom-modules/custom/docx_extract/main.sjs",
+  "retryLimit" : 0,
+  "batchSize" : 100,
+  "threadCount" : 4
+}

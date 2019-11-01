@@ -1,0 +1,45 @@
+{
+  "name" : "load_keywords",
+  "description" : "",
+  "batchSize" : 100,
+  "threadCount" : 4,
+  "stopOnError" : false,
+  "options" : { },
+  "version" : 0,
+  "steps" : {
+    "1" : {
+      "name" : "load_keywords",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ ],
+        "headers" : {
+          "sources" : [ {
+            "name" : "load_keywords"
+          } ],
+          "createdOn" : "currentDateTime",
+          "createdBy" : "currentUser"
+        },
+        "sourceQuery" : "cts.collectionQuery([])",
+        "collections" : [ "load_keywords" ],
+        "permissions" : "rest-reader,read,rest-writer,update",
+        "outputFormat" : "json",
+        "targetDatabase" : "data-hub-STAGING"
+      },
+      "customHook" : { },
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
+      "stepDefinitionName" : "default-ingestion",
+      "stepDefinitionType" : "INGESTION",
+      "fileLocations" : {
+        "inputFilePath" : "/Users/tkennedy/dev/data-hub/input/reference",
+        "inputFileType" : "json",
+        "outputURIReplacement" : "/Users/tkennedy/dev/data-hub/input/reference, ''",
+        "separator" : ","
+      },
+      "mappingStep" : false,
+      "customStep" : false,
+      "mappingName" : null
+    }
+  }
+}

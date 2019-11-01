@@ -1,0 +1,16 @@
+{
+  "game" : {
+    "x" : 10,
+    "y" : 115,
+    "width" : 350,
+    "height" : 100,
+    "vertices" : { }
+  },
+  "rock_doc" : {
+    "x" : 15,
+    "y" : 239,
+    "width" : 350,
+    "height" : 166,
+    "vertices" : { }
+  }
+}
