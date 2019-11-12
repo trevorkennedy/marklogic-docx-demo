@@ -29,7 +29,7 @@ java -jar  marklogic-datahub-5.0.4.war
 
 In a **web browser**, open the webpage:
 
-	http://localhost:8888
+	http://localhost:8080
 	
 Choose the repo folder and log into MarkLogic Server.
 
